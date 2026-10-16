@@ -48,6 +48,23 @@ Verdict: Needs work - the basics are missing.
 | Pushed within the last 180 days | 15 |
 | **Total** | **100** |
 
+## How the score is calculated
+
+
+The total score is the sum of points earned for each check (maximum 100).
+
+
+| Check           | Points |
+| --------------- | ------ |
+| Description     | 15     |
+| README          | 25     |
+| LICENSE         | 15     |
+| Topics          | 10     |
+| Homepage        | 10     |
+| Default branch  | 10     |
+| Recent activity | 15     |
+
+
 Verdicts: 90+ Excellent · 70–89 Good · 40–69 Needs work · 0–39 Rough.
 
 Errors are reported plainly: a missing repo prints `Error: repo not found (HTTP 404)`, network failures print the cause, and a hit API rate limit tells you when it resets. No API token is required (60 requests/hour unauthenticated).
